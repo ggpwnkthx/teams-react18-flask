@@ -1,0 +1,28 @@
+{
+    "appName": "Hello_World_Tab_with_Backend",
+    "version": "2.1.0",
+    "isFromSample": true,
+    "solutionSettings": {
+        "name": "fx-solution-azure",
+        "version": "1.0.0",
+        "hostType": "Azure",
+        "azureResources": [
+            "function"
+        ],
+        "capabilities": [
+            "Tab",
+            "TabSSO"
+        ],
+        "activeResourcePlugins": [
+            "fx-resource-frontend-hosting",
+            "fx-resource-identity",
+            "fx-resource-aad-app-for-teams",
+            "fx-resource-function",
+            "fx-resource-local-debug",
+            "fx-resource-appstudio"
+        ]
+    },
+    "programmingLanguage": "typescript",
+    "defaultFunctionName": "/api/v1",
+    "projectId": "7eea1429-c949-4eab-a0b2-81d2a5561df1"
+}
